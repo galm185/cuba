@@ -1,0 +1,419 @@
+		body{
+			margin:0;
+			font-family: Benton Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+		}
+		header{
+			background-image: url(images/background.jpg);
+			background-size: cover;
+		}
+		header div#top-header{
+			display: flex;
+			flex-wrap: wrap; 
+		    justify-content: space-between;
+		    align-items: center;
+		    border-bottom: 1px solid #57524e;
+		    padding-bottom: 16px;
+		    padding-top: 16px;
+		}
+		header div#logo-header{
+			width: 30%;
+		}
+		header div#logo-header img{
+			width: 40%;
+			margin:14px;
+		}
+		header div#nav-header{
+			width: 55%;
+		}
+		header div#nav-header a{
+			color: white;
+		    text-decoration: none;
+		    padding: 15px;
+		    font-size: 14px;
+    		font-weight: 600;
+		}
+		header div#nav-header a:hover{
+			color:hsla(0,0%,100%,.6);
+		}
+		header div#nav-header a:last-child{
+			    border: 1px solid white;
+			    border-radius: 20px;
+			    padding: 8px 15px;
+		}
+		header div#header-index{
+			    display: flex;
+			    flex-wrap: wrap;
+			    justify-content: center;
+			    align-items: center;
+			    color: white;
+			    padding-top: 65px;
+		}
+		header div#header-index a{
+			    width: 100%;
+			    text-align: center;
+			    text-decoration: none;
+			    color: white;
+			    font-size: 14px;
+			    margin-top: 30px;
+		}
+		header div#header-index h1{
+				width: 100%;
+			    text-align: center;
+			    font-size: 80px;
+			    margin-top: 10px;
+			    margin-bottom: 0px;
+		}
+		header div#header-index p{
+				text-align: center;
+			    font-size: 21px;
+			    margin-top: 0;
+			    width: 100%;
+		}
+		header div#header-index button{
+				background-color: #297cbb;
+			    border-radius: 40px;
+			    border: none;
+			    font-size: 17px;
+			    padding: 12px 35px;
+			    color: white;
+			    margin-top: 5px;
+			    margin-bottom: 140px;
+			    cursor: pointer;
+		}
+		header div#background-nav{
+				background-color:#ffffff;
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				position: sticky;
+				top: 0;	
+		}
+		header nav#main-nav-header{
+			   display: flex;
+		       justify-content: center;
+		       height: 76px;
+		       width: 90%;
+		       border-bottom: 1px solid #3b444f;
+		       align-items: center;
+		       position: sticky;
+    		   top: 0;
+		}
+		header nav#main-nav-header a{
+			   text-decoration: none;
+			   padding: 15px;
+			   font-size: 13px;
+			   font-weight: 600;
+			   color: #3b444f;
+		}
+		header nav#main-nav-header a:hover{
+			   color: #297cbb;
+		}
+
+
+		button#feedback{
+			    border: none;
+			    padding: 0;
+			    position: fixed;
+			    bottom: 0;
+			    cursor: pointer;
+			    z-index: 1;
+			    right: 2.8rem;
+		}
+		main div#Welcome-cuba{
+			   display: flex;
+			   align-items: center;
+			   flex-direction: column;
+			   margin-top: 50px;
+			   border-bottom: 1px solid #3b444f;
+			   padding-bottom: 50px;
+		}
+		main div#Welcome-cuba h1{
+			   text-align: center;
+			   color: #3b444f;
+			   font-size: 40px;
+			   font-weight: 100;
+			   margin-bottom: 5px;	
+		}
+		main div#Welcome-cuba p{
+			   margin-top: 40px;
+			   color: #3b444f;
+			   font-size: 25px;
+			   font-weight: 100;
+			   margin-bottom: 50px;
+			   width: 80%;
+		}
+		hr.hr-style{
+			   width: 30px;
+			   height: 2px;
+			   background-color: red;
+			   border: none;
+			   margin: 1rem 10rem 5rem 10rem;
+		}
+		main div#Welcome-cuba button{
+			   height: 35px;
+			   background-color: white;
+			   border: none;
+			   border-top: 1px solid #57524e;
+			   margin-bottom: 40px;
+			   color: #297cbb;
+			   font-size: 12px;
+			   padding: 22px;
+			   cursor: pointer;
+		}
+		main div#Welcome-cuba a{width: 95%;}
+		main div#Welcome-cuba img{
+			   width: 100%;
+		}
+		main div#Welcome-cuba p#small-p{
+			   width: 60%;
+			   color: #3b444f;
+			   font-size: 13px;
+			   text-align: center;
+			   margin-top: 20px;
+		}
+		div#Top-experiences{
+			   display: flex;
+			   flex-wrap: wrap;
+			   justify-content: center;
+			   margin-top: 45px;
+		}
+		 .style-h2{
+			   width: 100%;
+    		   text-align: center;
+    		   margin-bottom: 10px;
+    		   color: #3b444f;
+			   font-size: 40px;
+			   font-weight: 100;
+		}
+		div#Top-experiences h2#top-sights{
+			    width: 100%;
+			    margin: 50px 0 20px 20px;
+			    color: #3b444f;
+			    font-size: 23px;
+			    font-weight: 100;
+			    text-align: start;
+		}
+		div#Top-experiences nav#experiences{
+			   display: flex;
+			   flex-wrap: wrap;
+			   justify-content: space-around;
+			   margin-top: 50px;
+			   width: 98%;
+		}
+		div#Top-experiences nav#experiences a{
+			   width: 23%;
+			   position: relative;
+			   transition: 0.5s ease-in-out;
+		}
+		div#Top-experiences nav#experiences a:hover{
+			 transform: translate(0,-0.8rem);
+		}
+		div#Top-experiences nav#experiences a img{
+			   width: 100%;
+			   height:100%;
+		}
+		div#Top-experiences nav#experiences a div.image-content{
+			   position: absolute;
+			   bottom: 40px;
+		       display: flex;
+		       flex-wrap: wrap;
+		       justify-content: space-around;
+		}
+		div#Top-experiences nav#experiences a div.image-content p{
+			   color: white;
+			   font-size: 14px;
+		}
+		div#Top-experiences nav#experiences a div.image-content h3{
+			   color: white;
+			   font-size: 18px;
+			   margin: 0;
+		}
+		main div.left-side{
+			   display: flex;
+			   flex-wrap: wrap;
+			   width: 68%;
+			   margin-right: 50px;
+			   justify-content: space-around;
+		}
+		main div.left-side h2{
+			   width: 100%;
+			   text-align: center;
+		}
+		main div.left-side a.nav-img{
+			   width: 20%;
+			   display: flex;
+			   width: 30%;
+		}
+		main div.left-side h3{
+			   font-size: 13px;
+			   width: 29%;
+		}
+		main div.left-side span{
+			   font-size: 10px;
+		}
+		main div.left-side{
+			   display: flex;
+			   flex-wrap: wrap;
+			   width: 67%;
+			   margin-right: 40px;
+			   justify-content: space-around;
+		}
+		main div.left-side a.nav-img{
+			   display: flex;
+	   		   width: 40%;
+	    	   text-decoration: none;
+	   		   padding-bottom: 30px;
+	   		   border-bottom: 1px solid rgba(189, 206, 227, 0.3);
+        }
+        main div.left-side a.nav-img div.content-side h3:hover{
+				color:#297cbb;
+        }
+		main div.left-side a.nav-img img{
+			   width: 80px;
+    	       height: 50px;
+    	       margin-top: 15px;
+		}
+		main div#left-side a.nav-img div.content-side{
+			   margin-left: 25px;
+		}
+		main div.left-side a.nav-img div.content-side h3{
+			   width: 90%;
+   		       color: rgb(59, 68, 79);
+   		       font-size: 15px;
+		}
+		main div.left-side a.nav-img div.content-side span{
+			   font-size: 12px;
+    		   color: rgb(197, 209, 215);
+		}
+		aside{
+			   width: 26%;
+		   	   height: 48px;
+		   	   background-color: rgb(246, 246, 246);
+		   	   display: flex;
+		       justify-content: center;
+		}
+		aside span{
+			   font-size: 8px;
+			   padding-top: 10px;
+			   color: #3b444f;
+		}
+		main button#view-button{
+			   margin: 40px 20px;
+			   background-color: white;
+			   border: none;
+			   border-top: 1px solid rgba(228,228,228,1);
+			   padding-right: 50px;
+			   padding-top: 15px;
+			   cursor: pointer;
+		}
+		main button#view-button span:hover{
+			   color:#5691bd; 
+		}
+		main button#view-button span{
+			   font-size: 11px;
+			   color: rgb(41, 124, 187);
+			   font-weight: 600;
+		}
+		main div#map{
+			   background-image: url(images/maps-static.jpeg);
+			   background-size: cover;
+			   height: 600px;
+			   margin-top: 40px;
+			   display: flex;
+			   justify-content: center;
+			   align-items: flex-end;
+			   margin-bottom: 7rem;
+		}
+		main div#map button{
+			   width: 26%;
+			   margin-bottom: 2rem;
+			   background-color: #297cbb;
+			   border: none;
+			   height: 8%;
+			   border-radius: 2rem;
+			   color: white;
+			   display: flex;
+			   align-items: center;
+			   justify-content: center;	   
+		}
+		main div#map button p{
+			   font-size: 0.9rem;
+    		   font-weight: 600;
+		}
+		main div#map button i{
+			   padding-right: 1rem;
+    		   font-size: 1.2rem;
+    		   transition: 0.5s ease-in-out;
+		}
+		main div#map button:hover >i{
+			   transform: translate(-0.6rem,0);
+		}
+		div#Survival-guide{
+			   display: flex;
+		       flex-wrap: wrap;
+		       justify-content: center;	
+		}
+		nav#Survival-guide{
+			   display: flex;
+			   flex-wrap: wrap;
+			   justify-content: space-around;
+		}
+		nav#Survival-guide a{
+			   width: 23%;
+			   text-decoration: none;	   
+		}
+		nav#Survival-guide a figure img{
+			   transition: 0.5s ease-in-out;
+		}
+		nav#Survival-guide a:hover img{
+			   transform: translate(0,-0.5rem);
+		}
+		nav#Survival-guide a figure{
+			   text-align: center;
+		       color: #3b444f;
+		       font-size: 1.3rem;       
+		}
+		nav#Survival-guide a p{
+			   text-align: center;
+		       color: #3b444f;
+		       font-size: 1rem;
+		}
+		button#see-more{
+			   margin-top: 5rem;
+			   color: #297cbb;
+			   background-color: white;
+			   border: none;
+			   font-size: 0.9rem;
+			   cursor: pointer;
+		}    
+		button#see-more:hover span {
+			   transform: translate(-0.8em,0);	   
+		}
+		button#see-more span{
+			   font-size: 0.7rem;
+			   transition: 0.7s ease-in-out;
+			   display:inline-block;
+			   padding-left: 0.9em;
+		}    
+    	div#Recent-articles{
+    		   flex-wrap: wrap;
+			   display: flex;9
+    	}
+    	div#recent-articles{
+    		   flex-wrap: wrap;
+			   display: flex;
+			   justify-content: center;
+    	}
+    	div#recent-articles div#recent-left-side{
+    		   width: 68%;
+    	}
+ 	
+ 	   	@media only screen and (max-width: 600px) {
+    		body {
+        		background-color: lightblue;
+    		}
+    		div#Top-experiences nav#experiences a{width: 36%;}
+    		main div#map button{width: 44%;}
+    		nav#Survival-guide a{width:40%;}
+    		header div#nav-header{width: 90%;}
+		}
